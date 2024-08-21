@@ -1,0 +1,90 @@
+{
+  "id": 1,
+  "profile": {
+    "name": "Sujana Pyakurel",
+    "location": "Sanothimi, Bhaktapur",
+    "email": "sujanapyakurel2000@gmail.com",
+    "phone": "9843888957",
+    "linkedin": "https://www.linkedin.com/in/suzeyy",
+    "github": "https://github.com/suzeyy"
+  },
+  "professionalSummary": {
+    "summary": "A curious and passionate computer science student, possessing high energy and enthusiasm, with proficiency in leadership and a solid grounding in mathematics, science, and programming logic. A fast learner, always eager to enhance skills and broaden horizons."
+  },
+  "experience": [
+    {
+      "company": "INSPIRE UVic",
+      "companyLink": "https://inspireuvic.org/",
+      "location": "Nakhipot 14, Lalitpur, Nepal",
+      "role": "Apprentice Garage | Solution Developer",
+      "duration": "August 2024 – January 2025",
+      "responsibilities": [
+        "Applied advanced problem-solving skills to co-design and develop full-stack web applications using .NET and ReactJS, addressing complex challenges effectively.",
+        "Participated in workshops and training sessions, gaining hands-on experience in DevOps, API design, and agile project management methodologies.",
+        "Collaborated with a multidisciplinary team to co-design and develop technology solutions addressing social, economic, and environmental challenges."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "LiteLane",
+      "description": [
+        "A car game implemented in C Programming language.",
+        "Used graphics.h library."
+      ],
+      "githubLink": "https://github.com/suzeyy/LiteLane"
+    },
+    {
+      "name": "FlavorFusion",
+      "description": [
+        "Static webpage for a restaurant.",
+        "Utilized HTML and CSS to create a visually appealing and user-friendly interface."
+      ],
+      "githubLink": "https://github.com/suzeyy/FlavorFusion"
+    },
+    {
+      "name": "Watch Haven",
+      "description": [
+        "E-commerce website designed for a watch collection.",
+        "Designed using HTML, CSS, JavaScript, PHP, and MySQL.",
+        "Includes add-to-cart, wishlist, checkout page, and eSewa payment integration."
+      ],
+      "githubLink": "https://github.com/suzeyy/Ecommerce"
+    }
+  ],
+  "skills": {
+    "technicalSkills": [
+      "C",
+      "C++",
+      "Python",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS"
+    ],
+    "softSkills": [
+      "Efficiency Under Pressure",
+      "Effective Time Management",
+      "Creative Problem-Solving"
+    ]
+  },
+  "education": [
+    {
+      "degree": "BSc. CSIT (Final Year)",
+      "university": "Tribhuvan University",
+      "coursework": [
+        ".NET",
+        "PHP",
+        "Data Structure & Algorithm",
+        "Object Oriented Programming",
+        "Database Management System"
+      ],
+      "duration": "April 2020 - Present"
+    }
+  ],
+  "certificates": [
+    "IT Essentials of Cisco Networking Academy",
+    "Event Manager of Hult Prize at Samriddhi"
+  ],
+  "interests": ["Reading Novels", "Listening Music", "Travelling"]
+}

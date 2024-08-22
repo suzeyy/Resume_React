@@ -148,3 +148,19 @@ h3 {
 .givebor {
   margin-bottom: 20px;
 }
+
+.education-section .degree{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.education-section .degree i{
+  margin-right: 5px;
+}
+
+.coursework-container{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}

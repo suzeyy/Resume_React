@@ -19,15 +19,12 @@ function Experience() {
     handleData();
   }, []);
 
-  return (
-    <div className="experience-section">
-      <h3>Experience</h3>
-      <p className="company">
+  return <div className="experience-section">
+    <h3>Experience</h3>
+    <p className="company">
         <a
           href={experience[0].companyLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+          target="_blank" rel="noopener noreferrer" >
           {experience[0].company}
           {","}
         </a>
@@ -43,8 +40,7 @@ function Experience() {
           <li key={index}>{responsibility}</li>
         ))}
       </ul>
-    </div>
-  );
+  </div>;
 }
 
 export default Experience;

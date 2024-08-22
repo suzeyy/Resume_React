@@ -16,7 +16,7 @@ function CV() {
       <Experience />
       <Projects />
       {/* <Skills /> */}
-      {/* <Education /> */}
+      <Education />
     </div>
   );
 }

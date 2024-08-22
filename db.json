@@ -1,5 +1,4 @@
 {
-  "id": 1,
   "profile": {
     "name": "Sujana Pyakurel",
     "location": "Sanothimi, Bhaktapur",
@@ -79,12 +78,27 @@
         "Object Oriented Programming",
         "Database Management System"
       ],
-      "duration": "April 2020 - Present"
+      "duration": "April 2020 - Present",
+      "database": "Basic knowledge of MySQL"
     }
   ],
   "certificates": [
-    "IT Essentials of Cisco Networking Academy",
-    "Event Manager of Hult Prize at Samriddhi"
+    {
+      "title": "IT Essentials of Cisco Networking Academy"
+    },
+    {
+      "title": "Event Manager of Hult Prize at Samriddhi"
+    }
   ],
-  "interests": ["Reading Novels", "Listening Music", "Travelling"]
+  "interests": [
+    {
+      "title": "Reading Novels"
+    },
+    {
+      "title": "Listening Music"
+    },
+    {
+      "title": "Travelling"
+    }
+  ]
 }

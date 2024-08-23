@@ -7,6 +7,8 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Education from "./Education";
+import Certificate from "./Certificate";
+import Interest from "./Interest";
 
 function CV() {
   return (
@@ -15,8 +17,10 @@ function CV() {
       <Summary />
       <Experience />
       <Projects />
-      {/* <Skills /> */}
+      <Skills />
       <Education />
+      <Certificate />
+      <Interest />
     </div>
   );
 }

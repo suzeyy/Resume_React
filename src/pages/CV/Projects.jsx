@@ -37,8 +37,6 @@ function Projects() {
           </ul>
         </div>
       ))}
-      
-      <div classname="givebor"></div>
     </div>
   );
 }

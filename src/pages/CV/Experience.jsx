@@ -19,28 +19,34 @@ function Experience() {
     handleData();
   }, []);
 
-  return <div className="experience-section">
-    <h3>Experience</h3>
-    <p className="company">
-        <a
-          href={experience[0].companyLink}
-          target="_blank" rel="noopener noreferrer" >
-          {experience[0].company}
-          {","}
-        </a>
-        <span className="location">{experience[0].location}</span>
-      </p>
-      <div className="role-duration">
-        <p>{experience[0].role}</p>
-        <p>{experience[0].duration}</p>
-      </div>
-
-      <ul>
-        {experience[0].responsibilities.map((responsibility, index) => (
-          <li key={index}>{responsibility}</li>
-        ))}
-      </ul>
-  </div>;
+  return (
+    <div className="experience-section">
+      <h3>Experience</h3>
+      {experience.map((exp, index) => (
+        <div key={index} className="experience-item">
+          <p className="company">
+            <a
+              href={exp.companyLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {exp.company},
+            </a>
+            <span className="location"> {exp.location}</span>
+          </p>
+          <div className="role-duration">
+            <p>{exp.role}</p>
+            <p>{exp.duration}</p>
+          </div>
+          <ul style={{marginBottom: "5px"}}>
+            {exp.responsibilities.map((responsibility, idx) => (
+              <li key={idx}>{responsibility}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default Experience;

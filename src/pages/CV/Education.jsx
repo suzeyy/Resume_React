@@ -7,7 +7,7 @@ function Education() {
 
   const handleData = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/education"); // Corrected the endpoint
+      const response = await axios.get("http://localhost:3000/education");
       console.log(response.data);
       setEducation(response.data);
     } catch (error) {
@@ -20,23 +20,38 @@ function Education() {
   }, []);
 
   return (
-    <div className="education-section">
-      <h3>Education</h3>
-      <div className="degree">
-        <p>{education[0].degree} | {education[0].university}</p>
-        <p><i className="fas fa-calendar-alt" style={{ color: "white", WebkitTextStroke: "1px black" }}></i>{education[0].duration}</p>
+    <>
+      <div className="education-section">
+        <h3>Education</h3>
+        {education.map((edu, index) => (
+          <div key={index} className="education-item">
+            <div key={index} className="degree">
+              <p>
+                <strong>{edu.degree}</strong> {edu.year}| {edu.university}
+              </p>
+              <p>
+                <i
+                  className="fas fa-calendar-alt"
+                  style={{ color: "white", WebkitTextStroke: "1px black" }}
+                ></i>
+                {edu.duration}
+              </p>
+            </div>
+            <div className="coursework-container">
+              <h4>Coursework:</h4>
+              <p>{edu.coursework.join(", ")}</p>
+            </div>
+            <div
+              className="database-container"
+              style={{ marginBottom: "-10px" }}
+            >
+              <h4>Database:</h4>
+              <p>{edu.database}</p>
+            </div>
+          </div>
+        ))}
       </div>
-      <div className="coursework-container">
-        <h5>Coursework:</h5>
-        <p>{education[0]?.coursework.join(", ")}</p>
-      </div>
-      {/* <div className="database-container">
-        <h5>Database:</h5>
-        <p>{education[0]?.database}</p>
-      </div> */}
-
-      <div className="givebor"></div>
-    </div>
+    </>
   );
 }
 

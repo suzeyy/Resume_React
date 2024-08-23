@@ -53,23 +53,32 @@
   ],
   "skills": {
     "technicalSkills": [
-      "C",
-      "C++",
-      "Python",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS"
+      {
+        "programmingLanguage": [
+          { "name": "C" },
+          { "name": "C++" },
+          { "name": "Python" }
+        ]
+      },
+      {
+        "webDevelopment": [
+          { "name": "HTML" },
+          { "name": "CSS" },
+          { "name": "JavaScript" },
+          { "name": "ReactJS" }
+        ]
+      }
     ],
     "softSkills": [
-      "Efficiency Under Pressure",
-      "Effective Time Management",
-      "Creative Problem-Solving"
+      { "name": "Efficiency Under Pressure" },
+      { "name": "Effective Time Management" },
+      { "name": "Creative Problem-Solving" }
     ]
   },
   "education": [
     {
-      "degree": "BSc. CSIT (Final Year)",
+      "degree": "BSc. CSIT",
+      "year": "(Final Year)",
       "university": "Tribhuvan University",
       "coursework": [
         ".NET",
